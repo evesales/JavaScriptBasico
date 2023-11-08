@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <h1>Manipulação de Array</h1>
+
+    <script>
+        // Declaração de uma array
+        let frutas;
+
+        // Inicialização (quando é texto, colocar entre aspas)
+        frutas = ["maça", "banana", "laranja"];
+
+        // Declaração e Inicialização
+        let notas = [8,7,9,10];
+
+        document.write("Elementos da array: ");
+        document.write(frutas + "<br />");
+
+        let segundoElemento = frutas[1];
+        document.write(`Segundo Elemento: ${segundoElemento} <br />`);
+
+        frutas[1] = "goiaba";
+        document.write(`Segundo elemento da array após alteração: ${frutas[1]} <br />`)
+
+        // Retorna a quantidade de elementos de uma array nomeArra.length
+        document.write(`A array frutas possui ${frutas.length} elementos <br />`)
+
+        // Adiciona um elemento no final da array nomeArray.push ("novoValor");
+        frutas.push("uva");
+        document.write(`Elementos da array: ${frutas} <br />`);
+
+        // Remover o último elemento da array - nomeArray.pop()
+        let frutaRemovida = frutas.pop();
+        document.write(`A ${frutaRemovida} foi excluida da array frutas`)
+
+        frutas.splice(2,0,"manga");
+        document.write(`Elementos da array: ${frutas} <br />`);
+
+
+
+
+
+    </script>
+</body>
+</html>

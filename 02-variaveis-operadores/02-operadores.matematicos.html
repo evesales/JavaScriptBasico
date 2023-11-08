@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Matemáticos</title>
+</head>
+<body>
+
+    <h1>Calculadora Simples</h1>
+
+    <script>
+
+        // Declara as variáveis
+        let operando1;
+        let operando2;
+        
+        let adicao;
+        let subtracao;
+        let multiplicacao;
+        let divisao;
+        let restodadivisao;
+        let exponenciacao;
+
+        // Solicita o primeiro operando
+        operando1= prompt("Digite o primeiro número:");
+
+        // Solicita o segundo operando
+        operando2= prompt("Digite o segundo número:");
+
+        // Converter os operadores em números
+        operando1 = parseInt(operando1);
+        operando2 = parseInt(operando2);
+
+        adicao = operando1+operando2;
+        subtracao = operando1-operando2;
+        multiplicacao = operando1*operando2;
+        divisao = operando1/operando2;
+        restodadivisao = operando1%operando2;
+        exponenciacao = operando1**operando2;
+
+        incremento = ++operando1
+        decremento = --operando1
+
+        document.write("Adição:" + adicao + "<br />");
+        document.write("Subtração:" + subtracao + "<br />");
+        document.write("Multiplicação:" + multiplicacao + "<br />");
+        document.write("Divisão:" + divisao + "<br />");
+        document.write("Resto da divisão:" + restodadivisao + "<br />");
+        document.write("Exponenciação:" + exponenciacao + "<br />");
+        document.write("Unário de Incremento: " + operando1 + " Após incrementar = " + incremento + "<br />");
+        document.write("Unário de Decremento: " + incremento + " Após decrementar = " + decremento + "<br />");
+
+
+
+    </script>
+
+</body>
+</html>
