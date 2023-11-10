@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#cpfInput {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style:groove;
+}
+
+#validarButton{
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color:royalblue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: none;
+}
+
+#validarButton:hover{
+    background-color:rgb(52, 91, 207);
+}
